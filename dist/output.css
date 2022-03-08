@@ -537,10 +537,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 60%;
 }
 
-.w-5 {
-  width: 1.25rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -628,10 +624,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .to-slate-900 {
   --tw-gradient-to: #0f172a;
-}
-
-.to-slate-300 {
-  --tw-gradient-to: #cbd5e1;
 }
 
 .py-2 {
