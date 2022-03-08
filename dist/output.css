@@ -630,6 +630,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #0f172a;
 }
 
+.to-slate-300 {
+  --tw-gradient-to: #cbd5e1;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
