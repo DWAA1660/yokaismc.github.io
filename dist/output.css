@@ -484,10 +484,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 0px;
 }
 
-.float-right {
-  float: right;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -495,6 +491,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mr-7 {
+  margin-right: 1.75rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .flex {
@@ -541,12 +545,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.place-content-center {
+  place-content: center;
+}
+
 .content-start {
   align-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .gap-9 {
@@ -653,6 +673,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-12 {
   padding-top: 3rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .text-center {
