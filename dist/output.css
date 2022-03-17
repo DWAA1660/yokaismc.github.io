@@ -724,6 +724,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.75rem;
 }
 
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -796,11 +800,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:w-4\/5 {
     width: 80%;
   }
+
+  .sm\:pr-20 {
+    padding-right: 5rem;
+  }
 }
 
 @media (min-width: 768px) {
   .md\:w-4\/5 {
     width: 80%;
+  }
+
+  .md\:pr-8 {
+    padding-right: 2rem;
+  }
+
+  .md\:pr-20 {
+    padding-right: 5rem;
   }
 }
 
