@@ -600,6 +600,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.place-content-center {
+  place-content: center;
+}
+
 .content-start {
   align-content: flex-start;
 }
